@@ -11,5 +11,16 @@ print("Marks:", marks)
 #loop-doing same task multiple times
 for m in marks:
     print(m)
+#running sum question
+nums=[1,2,3,4,5]
+runningSum=[]
+total=0
+print("Running sum")
+for num in nums:
+    total=total+num
+    print(total)
+    runningSum.append(total)
+    print(runningSum)
+
 
 
